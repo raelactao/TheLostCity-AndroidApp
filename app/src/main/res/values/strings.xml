@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">thylostcity</string>
+    <string name="title">The Lost City: A Short Text-based Adventure Game</string>
+    <string name="start">START...</string>
+    <string name="beginning">As you trek into the jungle, you came across two paths. Which path will you choose?</string>
+    <string name="left">Go Left</string>
+    <string name="right">Go Right</string>
+    <string name="forward">Go Forward</string>
+    <string name="back">Go Back</string>
+    <string name="read_sign">Read Sign</string>
+    <string name="sign">Warning proceed with caution. DANGER AHEAD!!!</string>
+    <string name="pray">Pray to the deity</string>
+    <string name="god_pray">You pray to the Jungle Deity and your prayers have been answered! Pick one.</string>
+    <string name="rope">Pick the rope.</string>
+    <string name="sword">Pick the sword.</string>
+    <string name="qsand">You have encountered a quicksand. What will you do?</string>
+    <string name="dead">You are dead... your adventure ends here x.x</string>
+    <string name="over">GAME OVER...</string>
+    <string name="swords">You have obtain an ancient sword, blessed by the Jungle Deity...</string>
+    <string name="ropes">You have obtain a magic rope, blessed by the Jungle Deity...</string>
+    <string name="nice">Nice!</string>
+    <string name="use_rope">Use Magic Rope</string>
+    <string name="fight">Defend Yourself!</string>
+    <string name="relic">You found a relic, it tells you to go back and find another path!</string>
+    <string name="danger">You have encounter a hostile tribe.. They felt threaten and attack you. What will you do?</string>
+    <string name="escape">Try to escape!</string>
+    <string name="lock">You stumble upon an secret entrance! Looks like its locked... What will you do?</string>
+    <string name="force">Force the lock open</string>
+    <string name="trap">You have triggered a trap, You are dead... your adventure ends here x.x</string>
+    <string name="key">Use the relic!</string>
+    <string name="treasure">Congratulation! You found the lost treasure and become rich beyond your wildest dreams ^^</string>
+    <string name="again">Start Over</string>
+</resources>

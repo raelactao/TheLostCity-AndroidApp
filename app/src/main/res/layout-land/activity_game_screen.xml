@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameScreen">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="346dp"
+        android:layout_height="405dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="0dp"
+        app:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/gameImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/sign" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="321dp"
+        android:layout_height="389dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/gameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="text"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/choiceBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="-"
+            app:layout_editor_absoluteX="0dp"
+            app:layout_editor_absoluteY="440dp" />
+
+        <Button
+            android:id="@+id/choiceBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="-"
+            app:layout_editor_absoluteX="0dp"
+            app:layout_editor_absoluteY="488dp" />
+
+        <Button
+            android:id="@+id/choiceBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="-"
+            app:layout_editor_absoluteX="0dp"
+            app:layout_editor_absoluteY="536dp" />
+
+        <Button
+            android:id="@+id/choiceBtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/architects_daughter"
+            android:text="-"
+            app:layout_editor_absoluteX="0dp"
+            app:layout_editor_absoluteY="584dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
